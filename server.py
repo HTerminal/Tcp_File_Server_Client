@@ -46,7 +46,7 @@ while True:
         l = c.recv(8024)
         #if int(elapsed_time) == 5:
         #    os.system("on.bat");
-        file_size=os.path.getsize('recive.mp4')
+        file_size=os.path.getsize(file_name)
         file_size = file_size/1024
         
         print file_size,'KB','/',size_file,'KB'
